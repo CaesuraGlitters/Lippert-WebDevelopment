@@ -1,0 +1,18 @@
+
+.hero h1 {
+  font-size: 3rem; /* bigger */
+  letter-spacing: -0.5px; /* slight tightening — feels premium */
+  line-height: 1.1; /* brings lines closer together */
+  font-weight: 700; /*bold*/
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;   /* push content to top */
+  justify-content: center;   /* still horizontal center */
+  text-align: center;
+  padding-top: 10vh;         /* adjust how far down */
+}
+body {
+  font-family: "Inter", system-ui, sans-serif;
+}
