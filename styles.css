@@ -7,12 +7,10 @@
   margin-bottom: 0.5rem;
 }
 .hero {
-  min-height: 100vh;
   display: flex;
-  align-items: flex-start;   /* push content to top */
-  justify-content: center;   /* still horizontal center */
+  justify-content: center;
   text-align: center;
-  padding-top: 10vh;         /* adjust how far down */
+  padding: 3rem 1.5rem 2rem;        /* adjust how far down */
 }
 body {
   font-family: "Inter", system-ui, sans-serif;
@@ -20,9 +18,8 @@ body {
 }
 .template-intro {
   max-width: 900px;
-  margin-top: 0rem;
   margin: 0 auto;
-  padding: 5rem 1.5rem 3.5rem;
+  padding: 3rem 1.5rem 3rem;
   text-align: center;
 }
 
@@ -30,7 +27,7 @@ body {
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 600;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .template-intro p {
@@ -40,5 +37,6 @@ body {
   max-width: 650px;
   margin: 0 auto;
 }
+
 
 
