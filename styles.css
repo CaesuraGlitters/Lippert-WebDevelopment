@@ -4,6 +4,7 @@
   letter-spacing: -0.5px; /* slight tightening — feels premium */
   line-height: 1.1; /* brings lines closer together */
   font-weight: 700; /*bold*/
+  margin-bottom: 0.5rem;
 }
 .hero {
   min-height: 100vh;
@@ -38,3 +39,4 @@ body {
   max-width: 650px;
   margin: 0 auto;
 }
+
